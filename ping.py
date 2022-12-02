@@ -11,7 +11,7 @@ from CTFd.config import Config
 
 url = make_url(Config.DATABASE_URL)
 
-# Ignore sqlite databases
+# Ignore sqlite databasesadssad
 if url.drivername.startswith("sqlite"):
     exit(0)
 
